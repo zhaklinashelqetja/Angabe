@@ -25,12 +25,15 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-   TODO Uebung 3: Die Gson-Bibliothek eintragen.
 
-  <dependency>
-    <groupId>com.google.code.gson</groupId>
-    <artifactId>gson</artifactId>
-    <version>2.13.2</version>
-  </dependency>
+  <dependencies>
+
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.13.2</version>
+    </dependency>
+
+  </dependencies>
 
 </project>
