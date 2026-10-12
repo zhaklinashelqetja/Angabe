@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <!-- FEHLER 2:
+       modelVersion fehlt komplett -->
+
+  <groupId>at.htl.shkodra</groupId>
+
+  <!-- FEHLER 1:
+       Version ist kaputt -->
+  <version>0.2.0
+
+  <artifactId>sew5</artifactId>
+
+  <dependencies>
+    <!-- FEHLER 3:
+         dependancy statt dependency -->
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <!-- FEHLER 4:
+           Gson statt gson -->
+      <artifactId>Gson</artifactId>
+      <version>2.14.0</version>
+    </dependency>
+  </dependencies>
+</project>
